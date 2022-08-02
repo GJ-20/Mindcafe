@@ -1,0 +1,13 @@
+img/
+adm/
+bbs/
+data/
+intall/
+extend/
+lib/
+shop/
+skin/
+.git/
+.vscode/
+*.gif
+*.png
