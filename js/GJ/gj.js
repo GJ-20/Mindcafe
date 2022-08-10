@@ -6,6 +6,14 @@ $(document).ready(function(){
     $("#phone .q").addClass("aos-animate");
     $("#phone .a").addClass("aos-animate");
 
+    $('#fm').submit(
+        function(){
+                alert('신청되었습니다');
+        }
+    );
+
+  
+
     //지도 설정
     var mapContainer = document.getElementById('map1'),
         mapOption = { 
@@ -90,4 +98,13 @@ $(document).ready(function(){
        
     })
 
+    $("#pck").click(function(){
+        $("#popup").removeClass("off")
+        $("#popup").addClass("on")
+    });
+
+    $(".ok").click(function(){
+        $("#popup").removeClass("on")
+        $("#popup").addClass("off")
+    });
 })

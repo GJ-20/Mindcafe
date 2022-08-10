@@ -71,6 +71,7 @@ if(G5_COMMUNITY_USE === false) {
             $("html, body").animate({scrollTop:0}, '500');
             return false;
         });
+        
     });
     </script>
 </div>

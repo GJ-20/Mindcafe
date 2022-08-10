@@ -495,4 +495,42 @@ background-position: center;
   font-weight: 300;
   color: #fff;
 }
-/* /////////////////버튼/////////////////////// */
+/* /////////////////팝업/////////////////////// */
+
+#popup{
+  width: 50vw;
+  height: 50vh;
+
+  right: 350px;
+  bottom: 100px;
+}
+.pop{
+  background-color: #fff;
+  width: 80%;
+  padding: 2em;
+  opacity: 0.85;
+  border-radius: 10px;
+}
+
+.poptext{
+  font-weight: 300;
+  margin-bottom: 2em;
+
+}
+.ok{
+  bottom:5%;
+  left: 35%;
+  width: 30%;
+  border: none;
+  padding: 0.3em;
+  background-color: #7ED6D9;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.off{
+  display: none;
+}
+.on{
+  display: block;
+}

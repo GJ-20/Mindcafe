@@ -224,7 +224,7 @@ if(G5_COMMUNITY_USE === false) {
                         : 잠재되어있는 무기력하거나 공격적 에너지를 중화시키고<br> 
                         좌절을 견디고 긍정적인 힘을 키우는 효과를 얻게 합니다.
                     </p>
-                    <form action="" class="">
+                    <form action="" class="" id="fm">
                         <div class="info">
                             <div class="basic d-flex flex-column justify-content-between">
                                 <div>
@@ -285,9 +285,23 @@ if(G5_COMMUNITY_USE === false) {
             </div>   
         </div>
     </section>
+
+
 </div>
 
-
+<div id="popup" class="position-fixed off">
+        <div class="pop position-relative">
+            <p class="text-center">개인정보보호동의</p>
+            <p class="poptext">
+                ① 개인정보를 제공받는 자 : 마인드카페<br>
+                ② 개인정보를 제공받는 자의 개인정보 이용 목적 : 고객 관리<br>
+                ③ 제공하는 개인정보의 항목 : 성명, 전화번호, 나이<br>
+                ④ 개인정보를 제공받는 자의 개인정보 보유 및 이용 기간 : 제공 후 1년<br>
+                ⑤ 동의를 거부할 수 있으며, 동의 거부시 마인드카페 서비스가 제공되지 않습니다.
+            </p>
+            <button class="ok position-absolute ">확인</button>
+        </div>
+    </div>
 
 <!-- <?php //echo latest("pic_block","folio",3,100);?> -->
 <!-- <?php //echo latest("basic","as",3,100);?> -->
