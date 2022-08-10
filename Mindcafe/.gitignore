@@ -8,6 +8,6 @@ lib/
 shop/
 skin/
 .git/
-.vscode/
+
 *.gif
 *.png

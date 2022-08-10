@@ -22,48 +22,102 @@ if(G5_COMMUNITY_USE === false) {
 <!--<?php //echo latest ("slider","mainbanner",3,100);?>--> 
 
 
-
+<div id="mainSlider" class='position-relative'>
 <?php echo latest('slider',"slider",3,100); ?> 
+ 
+  <div id="phone" class="container m-auto d-flex justify-content-end align-items-center" >
+                <div class="bgphone">
+
+                <div class="pimg ">
+                 
+                    <dl class="chat">
+                        <dt class="q"  data-aos="fade-up-right" data-aos-easing="ease-in-back" data-aos-delay="1500" data-aos-duration="300">혼자 이겨내지 못하는 <br>
+                        나약한 사람이 되는거 아냐?</dt>
+                        <dd class="a" data-aos="fade-up-left"  data-aos-easing="ease-in-back" data-aos-delay="3000">
+                        <strong>그렇지 않아요.</strong>
+                        심리상담을 받는 것은 상담사의 도움을
+                        수용하려는 용기가 있는거에요.<br>
+                        용기와 내면의 힘이 있는 사람들이죠.
+                        </dd>
+                        <dt class="q"  data-aos="fade-up-right" data-aos-easing="ease-in-back" data-aos-delay="7000">
+                        친구와 진지하게 이야기하는 것과
+                        비슷하지 않아?
+                        </dt>
+                        <dd class="a" data-aos="fade-up-left" data-aos-easing="ease-in-back" data-aos-delay="8500" >
+                        <strong>다릅니다.</strong>
+                        상담사는 수년간 학위 취득과 임상경험을
+                        가져요.<br>  이러한 전문성으로 내담자의
+                        성장에 집중하며 대화를 이어나가죠
+                        </dd>
+                        <dt class="q"  data-aos="fade-up-right" data-aos-easing="ease-in-back" data-aos-delay="12500">
+                            상담을 받고나면 기록에 남지 않아?</dt>
+                        <dd class="a" data-aos="fade-up-left"data-aos-easing="ease-in-back" data-aos-delay="14000">
+                        <strong>걱정 안하셔도 돼요.</strong><br>
+                        기본적으로 상담은 비밀보장이 원칙이에요.<br>
+                        상담사는 상담과정에서 알게 된 내용에 대해
+                        절대로 제3자에게 공개할 수 없어요.
+                        </dd>
+                    
+                        <dt class="q"  data-aos="fade-up-right" data-aos-easing="ease-in-back" data-aos-delay="18000">
+                        정신적으로 문제가 있는 사람이 
+                        받는거 아냐?
+                        </dt>
+                        <dd class="a" data-aos="fade-up-left"data-aos-easing="ease-in-back" data-aos-delay="19500">
+                        <strong>그렇지 않아요.</strong>
+                        상담을 찾는 핵심 이유는 더 나은 삶을 살기 
+                        위함이에요.<br> 삶 속에서 변화와 성장의 경험이
+                        필요하다면 상담을 추천해요.
+                        </dd>
+                    </dl>
+                   
+                </div>
+                </div>
+                
+            
+
+            </div>
+ 
+</div>
 
 
 <div class="warp">
-    <section id="intro">
-    <div class="container">
-
-        <div id="first" class="d-flex justify-content-between align-items-center" >
-                        <div class="text">
-                            <p><strong>마인드카페</strong>는,<br> 
-                                심리상담&마음치유 플렛폼이에요.</p>
-                            <p>
-                            심리상담의 효과는 국내외 수많은 연구1)로 검증이 되었어요.<br>
-                            하지만 어떤 심리 전문가에 상담을 받았느냐에 따라<br>
-                            상담의 효과가 다를 수 있어요.
-                            </p>
-                        </div>
-                        <div class="youtube">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SBLs4y3MNko?autoplay=1&mute=1&modestbranding=1&controls=0&amp;playlist=SBLs4y3MNko&loop=1" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop;" allowfullscreen></iframe>
-                        </div>
-         </div>
-        <div id="second" class="d-flex justify-content-between align-items-center " data-aos="fade-up" data-aos-duration="1000">
-
-            <div class="introimg">
-                    <img src="/gnu/img/introimg.png" alt="인트로 두번째 이야기 사진">
+    <section id="intro" class="position-ralative">
+        <div class="container">
+            
+            <div id="first" class="d-flex justify-content-between align-items-center" >
+                            <div class="text">
+                                <p><strong>마인드카페</strong>는,<br> 
+                                    심리상담&마음치유 플렛폼이에요.</p>
+                                <p>
+                                심리상담의 효과는 국내외 수많은 연구1)로 검증이 되었어요.<br>
+                                하지만 어떤 심리 전문가에 상담을 받았느냐에 따라<br>
+                                상담의 효과가 다를 수 있어요.
+                                </p>
+                            </div>
+                            <div class="youtube">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SBLs4y3MNko?autoplay=1&mute=1&modestbranding=1&controls=0&amp;playlist=SBLs4y3MNko&loop=1" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop;" allowfullscreen></iframe>
+                            </div>
             </div>
-            <div class="text">
-                <p><strong>마인드카페</strong>는,<br> 
-                내 마음을 알아 볼 수 있어요.</p>
-                <p>
-                100문항의 자가 진단 평가를 통해 진정한 나를 탐구하고<br>
-                내 문제를 자신의 문제처럼 함께 고민해주는 사람들이 모인<br>
-                익명 SNS에 매일의 마음을 남길 수 있어요
-                </p>
-            </div>
-       </div>
-       <p class="second2" data-aos="fade-up" data-aos-duration="1000">
-        Lambert, M. J., Bergin, A. E., & Garfield, S. L. (1994). The effectiveness of psychotherapy. New York.<br>
-            Seligman, M. E. (1995). The effectiveness of psychotherapy: The Consumer Reports study. American psychologist, 50(12), 965.
-       </p>
-    </div>
+            <div id="second" class="d-flex justify-content-between align-items-center " data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="introimg">
+                        <img src="/gnu/img/introimg.png" alt="인트로 두번째 이야기 사진">
+                </div>
+                <div class="text">
+                    <p><strong>마인드카페</strong>는,<br> 
+                    내 마음을 알아 볼 수 있어요.</p>
+                    <p>
+                    100문항의 자가 진단 평가를 통해 진정한 나를 탐구하고<br>
+                    내 문제를 자신의 문제처럼 함께 고민해주는 사람들이 모인<br>
+                    익명 SNS에 매일의 마음을 남길 수 있어요
+                    </p>
+                </div>
+        </div>
+        <p class="second2" data-aos="fade-up" data-aos-duration="1000">
+            Lambert, M. J., Bergin, A. E., & Garfield, S. L. (1994). The effectiveness of psychotherapy. New York.<br>
+                Seligman, M. E. (1995). The effectiveness of psychotherapy: The Consumer Reports study. American psychologist, 50(12), 965.
+        </p>
+        </div>
            
 
     </section>
@@ -163,6 +217,8 @@ if(G5_COMMUNITY_USE === false) {
             </div>
             <div class="artbg">
                <div class="container forms mt-0 pt-0 mt-md-3 pt-md-3">
+                    <div class="artwarp">
+
                     <p>
                         <strong>미술치료</strong><br>
                         : 잠재되어있는 무기력하거나 공격적 에너지를 중화시키고<br> 
@@ -170,10 +226,10 @@ if(G5_COMMUNITY_USE === false) {
                     </p>
                     <form action="" class="">
                         <div class="info">
-                            <div class="basic d-flex justify-content-between">
+                            <div class="basic d-flex flex-column justify-content-between">
                                 <div>
                                     <strong class="d-block">이름</strong>
-                                    <input type="text" name="name" class="basicinfo iname" placeholder="홍길동" maxlength=6 size=10 >
+                                    <input type="text" name="name" class="basicinfo iname" placeholder="홍길동" maxlength=6 >
                                 </div>
                                 <div>
                                     <strong  class="d-block">연락처</strong>
@@ -181,46 +237,49 @@ if(G5_COMMUNITY_USE === false) {
                                 </div>
                                 <div>
                                     <strong  class="d-block">나이</strong>
-                                    <input type="number" name="age" min="10" class="basicinfo iage" maxlength=2 placeholder="10">
+                                    <input type="number" name="age" min="10" class="basicinfo iage" placeholder="10">
                                 </div>
                             </div>
-                            <div class="check d-flex">
-                                <div>
-                                    <span class="d-block">토요일 - 그림</span>
+              
+                                <div class="check d-flex">
+                                    <div>
+                                        <span class="d-block">토요일 - 그림</span>
+                                        
+                                        <input type="checkbox" id="sat" class="ck">
+                                        <label for="sat" ></label>
+                                    </div>
+                                    <div>
+                                    <span class="d-block">일요일 - 만들기</span>
                                     
-                                    <input type="checkbox" id="sat" class="ck">
-                                    <label for="sat" ></label>
+                                        <input type="checkbox" id="sun" class="ck">
+                                        <label for="sun" ></label>
+                                    </div>
+                                    <div>
+                                    <a href=""> <span class="d-block">개인정보보호동의(보기)</span></a>
+                                    
+                                        <input type="checkbox" id="pck" class="ck">
+                                        <label for="pck" ></label>
+                                    </div>
                                 </div>
-                                <div>
-                                <span class="d-block">일요일 - 만들기</span>
-                                   
-                                    <input type="checkbox" id="sun" class="ck">
-                                    <label for="sun" ></label>
-                                </div>
-                            </div>
+                         
+                         
                             <div class="personal d-flex">
-                               <div class="div">
-                                <input type="checkbox" id="law" class="ck">
-                                <label for="law"></label>
-                                <p class="pck">개인정보보호동의</p>
-                               </div>
-                               <div class="div">
-                                <input type="checkbox" id="law" class="ck d-none">
-                                <label for="law" class="d-none"></label>
-                                <p class="pck d-none">개인정보보호동의</p>
-                               </div>
+                          
+                              
                         
                             </div>
                             <div class="subdiv">
                                 <input type="submit" class="sub" value="신청하기">
                             </div>
                            
-                            <span class="position-absolute subcall">*빠른시일내로 연락드리겠습니다.</span>
+                            <span class=" subcall">*빠른시일내로 연락드리겠습니다.</span>
 
                             
                         </div>`
 
-                    </form>
+                    </form> 
+                </div>
+                   
                </div>
 
             </div>   
